@@ -4,9 +4,10 @@
 }
 
 #cards {
-    float: right;
-    margin: 20px;
-    padding: 20px;
+    float: left;
+    vertical-align: center;
+    margin: 20px 10px;
+    padding: 3%;
 }
 
 #bio {
@@ -21,6 +22,11 @@
 
 /* FONT STYLING */
 
+body, a {
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
 h2 {
     letter-spacing: 2px;
     font-weight: 300;
@@ -28,7 +34,7 @@ h2 {
 
 h5 {
     letter-spacing:1.5px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 /* PROFILE */
@@ -43,4 +49,10 @@ h5 {
 ul > a {
     margin-top: 10%;
     margin-left: 20px;
+}
+
+ul > a > img {
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 40px;
 }
