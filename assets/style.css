@@ -1,0 +1,19 @@
+#containerStyle {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#cards {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+#bio {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#grid {
+    padding: 10px;
+}
