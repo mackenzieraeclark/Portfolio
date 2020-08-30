@@ -25,6 +25,10 @@ body, a {
     font-weight: 300;
 }
 
+a {
+    color: #9B76A6;
+}
+
 h2 {
     letter-spacing: 2px;
     font-weight: 300;
