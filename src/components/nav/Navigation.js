@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-//components
-
 function Navigation() {
     return (
         <div id="Navigation">
