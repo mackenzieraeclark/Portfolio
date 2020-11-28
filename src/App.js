@@ -1,7 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { BreakpointProvider } from "react-socks";
+
+// styling (parent will affect all children)
 import "./style.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 // container imports
 import Landing from "./containers/Landing";

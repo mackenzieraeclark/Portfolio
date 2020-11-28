@@ -1,11 +1,12 @@
 import React from "react";
 
 //components
+import Navigation from "../components/nav/Navigation";
 
 function Portfolio() {
     return (
         <div>
-            <p>Portfolio</p>
+            <Navigation/>
         </div>
     )
 }

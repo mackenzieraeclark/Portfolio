@@ -1,6 +1,27 @@
+/* GLOBAL STYLES */
+
+body, a {
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+a:link {
+    color: darkslategray;
+}
+a:hover {
+    color: darkslategray !important;
+}
+a:visited {
+    color: darkslategray;
+}
 
 
+/* NAVIGATION STYLES */
 
+#Navigation {
+    font-size: large;
+    margin-top: 2%;
+}
 
 /* LANDING STYLES */
 
@@ -12,3 +33,5 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+/* CONTACT STYLES */
