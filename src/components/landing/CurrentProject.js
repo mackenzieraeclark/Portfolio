@@ -2,7 +2,7 @@ import React from "react";
 import { Breakpoint } from "react-socks";
 
 // graphics
-import UnderConstruction from "./UnderConstruction.gif";
+import UnderConstruction from "../../assets/UnderConstruction.gif";
 
 function CurrentProject() {
     return (
