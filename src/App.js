@@ -5,6 +5,8 @@ import "./style.css";
 
 // container imports
 import Landing from "./containers/Landing";
+import Portfolio from "./containers/Portfolio";
+import Contact from "./containers/Contact";
 
 function App() {
     return (
@@ -13,8 +15,8 @@ function App() {
                 <Router>
                     <Switch>
                         <Route exact path="/" component={Landing} />
-                        <Route/>
-                        <Route/>
+                        <Route exact path="/Portfolio" component={Portfolio} />
+                        <Route exact path="/Contact" component={Contact} />
                     </Switch>
                 </Router>
             </div>
